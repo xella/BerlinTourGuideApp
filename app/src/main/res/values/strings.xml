@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Berlin Tour Guide</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="berlin_infoblock1">
+        Berlin is the capital city of Germany. It is also the biggest city in Germany.
+    </string>
+
+    <string name="berlin_infoblock2">
+        The city is in the eastern part of Germany.
+        It is about 70 km (43.50 mi) west of Poland. Berlin has an area of 891 km2 (344.02 sq mi).
+        The rivers Havel, Dahme and Spree run through Berlin. It has an oceanic climate.
+    </string>
+
+    <string name="berlin_infoblock3">
+        Berlin is home to many famous buildings and monuments, like the Siegessäule,
+        the Brandenburger Tor, the Reichstag and the boulevard Unter den Linden.
+        On the boulevard are the Humboldt University and the State Opera of Berlin.
+        The Governing Mayor of the city is Michael Müller (SPD).
+    </string>
+
+    <string name="berlin_infoblock4">
+        Berlin is a world city of culture, politics, media and science.
+        There are a lot of technology companies in the city. They are important for the city\'s economy.
+        Many planes and trains travel to and from Berlin because the city is an important place for tourism and business[3].
+    </string>
+
+    <string name="berlin_infoblock5">
+        Berlin is an important city for the history of Germany.
+        The King of Prussia and the Emperor of Germany lived in Berlin.
+        The government of Germany was in Berlin for many years.
+        Bombs destroyed many buildings in the city in World War Two.
+        The city was split into West Berlin and East Berlin after World War Two.
+        After the Berlin Wall was built in 1961 very few people were allowed to cross from East Berlin into West Berlin.
+        The wall divided the city until 1989 when the East German government decided to allow anyone to cross,
+        and people decided to destroy the wall.
+    </string>
+</resources>
