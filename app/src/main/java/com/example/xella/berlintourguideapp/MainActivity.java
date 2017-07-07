@@ -54,23 +54,11 @@ public class MainActivity extends AppCompatActivity
     }
 
     @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.main, menu);
-        return true;
-    }
-
-    @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
 
         return super.onOptionsItemSelected(item);
     }
@@ -85,15 +73,20 @@ public class MainActivity extends AppCompatActivity
             Intent sightsIntent = new Intent(MainActivity.this, SightsActivity.class);
             startActivity(sightsIntent);
         } else if (id == R.id.nav_museums) {
-
+            Intent museumsIntent = new Intent(MainActivity.this, MuseumsActivity.class);
+            startActivity(museumsIntent);
         } else if (id == R.id.nav_parks) {
-
+            Intent parksIntent = new Intent(MainActivity.this, ParksActivity.class);
+            startActivity(parksIntent);
         } else if (id == R.id.nav_food) {
-
+            Intent foodIntent = new Intent(MainActivity.this, FoodActivity.class);
+            startActivity(foodIntent);
         } else if (id == R.id.nav_shopping) {
-
+            Intent shoppingIntent = new Intent(MainActivity.this, ShoppingActivity.class);
+            startActivity(shoppingIntent);
         } else if (id == R.id.nav_gallery) {
-
+            Intent galleryIntent = new Intent(MainActivity.this, GalleryActivity.class);
+            startActivity(galleryIntent);
         }
 //        } else if (id == R.id.nav_share) {
 //

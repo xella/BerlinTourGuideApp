@@ -11,14 +11,17 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"
+        android:paddingTop="24dp">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/berlin_infoblock1"
             android:drawableLeft="@drawable/ic_place"
-            android:drawablePadding="24dp"
+            android:drawablePadding="32dp"
             android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp"/>
 
@@ -26,36 +29,36 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/berlin_infoblock2"
-            android:drawableLeft="@drawable/ic_place"
-            android:drawablePadding="24dp"
+            android:drawableLeft="@drawable/ic_linear_scale"
+            android:drawablePadding="32dp"
             android:layout_marginTop="8dp"
-            android:layout_marginBottom="8dp" />
+            android:layout_marginBottom="8dp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/berlin_infoblock3"
-            android:drawableLeft="@drawable/ic_place"
-            android:drawablePadding="24dp"
+            android:drawableLeft="@drawable/ic_location_city"
+            android:drawablePadding="32dp"
             android:layout_marginTop="8dp"
-            android:layout_marginBottom="8dp" />
+            android:layout_marginBottom="8dp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/berlin_infoblock4"
-            android:drawableLeft="@drawable/ic_place"
-            android:drawablePadding="24dp"
+            android:drawableLeft="@drawable/ic_directions_railway"
+            android:drawablePadding="32dp"
             android:layout_marginTop="8dp"
-            android:layout_marginBottom="8dp" />
+            android:layout_marginBottom="8dp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/berlin_infoblock5"
-            android:drawableLeft="@drawable/ic_place"
-            android:drawablePadding="24dp"
+            android:drawableLeft="@drawable/ic_group"
+            android:drawablePadding="32dp"
             android:layout_marginTop="8dp"
-            android:layout_marginBottom="8dp" />
+            android:layout_marginBottom="8dp"/>
     </LinearLayout>
 </android.support.v4.widget.NestedScrollView>

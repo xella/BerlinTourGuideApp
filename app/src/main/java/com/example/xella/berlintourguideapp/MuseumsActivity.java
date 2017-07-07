@@ -6,7 +6,7 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
-public class SightsActivity extends AppCompatActivity {
+public class MuseumsActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -14,8 +14,8 @@ public class SightsActivity extends AppCompatActivity {
         setContentView(R.layout.place_list);
 
         ArrayList<Place> places = new ArrayList<Place>();
-        places.add(new Place("East Side Gallery", getString(R.string.east_side_gallery_d), R.drawable.berlin));
-        places.add(new Place("Brandenburg Gate", getString(R.string.brandenburg_gate_d), R.drawable.berlin));
+        places.add(new Place("East Side Gallery", getString(R.string.east_side_gallery_d)));
+        places.add(new Place("Brandenburg Gate", getString(R.string.brandenburg_gate_d)));
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s.
         // The adapter knows how to create list items for each item in the list.

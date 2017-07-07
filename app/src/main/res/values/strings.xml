@@ -39,4 +39,22 @@
         The wall divided the city until 1989 when the East German government decided to allow anyone to cross,
         and people decided to destroy the wall.
     </string>
+
+    <string name="east_side_gallery_d">
+        The East Side Gallery is an international memorial for freedom.
+        It is a 1316 m long section of the Berlin Wall located near the centre
+        of Berlin on Mühlenstraße in Friedrichshain-Kreuzberg.
+        The actual border at this point was the river Spree.
+        The gallery is located on the so-called "hinterland mauer",
+        which closed the border to West Berlin.
+    </string>
+
+    <string name="brandenburg_gate_d">
+        The Brandenburg Gate (German: Brandenburger Tor) is an 18th-century neoclassical monument in Berlin,
+        built on the orders of Prussian king Frederick William II after the (temporarily)
+        successful restoration of order during the early Batavian Revolution.
+        One of the best-known landmarks of Germany, it was built on the site of a former city gate
+        that marked the start of the road from Berlin to the town of Brandenburg an der Havel,
+        which used to be capital of the Margraviate of Brandenburg.
+    </string>
 </resources>
