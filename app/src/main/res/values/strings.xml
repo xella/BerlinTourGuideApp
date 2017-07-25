@@ -4,7 +4,10 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
-    <string name="action_settings">Settings</string>
+    <string name="places_sights">Sights</string>
+    <string name="places_museums">Museums</string>
+    <string name="places_parks">Parks</string>
+    <string name="places_food">Food</string>
 
     <string name="berlin_infoblock1">
         Berlin is the capital city of Germany. It is also the biggest city in Germany.

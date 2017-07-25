@@ -21,16 +21,16 @@
         </activity>
         <activity
             android:name=".SightsActivity"
-            android:label="Sights" />
+            android:label="@string/places_sights" />
         <activity
             android:name=".MuseumsActivity"
-            android:label="Museums" />
+            android:label="@string/places_museums" />
         <activity
             android:name=".ParksActivity"
-            android:label="Parks" />
+            android:label="@string/places_parks" />
         <activity
             android:name=".FoodActivity"
-            android:label="Food" />
+            android:label="@string/places_food" />
     </application>
 
 </manifest>
