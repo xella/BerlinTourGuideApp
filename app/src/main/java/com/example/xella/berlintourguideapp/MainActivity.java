@@ -1,17 +1,13 @@
 package com.example.xella.berlintourguideapp;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.Menu;
+import android.util.Log;
 import android.view.MenuItem;
 
 public class MainActivity extends AppCompatActivity
@@ -33,6 +29,8 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        getFragmentManager().findFragmentById(R.id.main_content);
     }
 
     @Override
@@ -45,16 +43,6 @@ public class MainActivity extends AppCompatActivity
         }
     }
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        return super.onOptionsItemSelected(item);
-    }
-
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
@@ -62,21 +50,38 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_sights) {
-            Intent sightsIntent = new Intent(MainActivity.this, SightsActivity.class);
-            startActivity(sightsIntent);
+            setToolbarTitle(R.string.places_sights);
+            // Insert the fragment by replacing any existing fragment
+            getFragmentManager().beginTransaction()
+                    .replace(R.id.content_frame, new SightsFragment())
+                    .commit();
         } else if (id == R.id.nav_museums) {
-            Intent museumsIntent = new Intent(MainActivity.this, MuseumsActivity.class);
-            startActivity(museumsIntent);
+            setToolbarTitle(R.string.places_museums);
+            getFragmentManager().beginTransaction()
+                    .replace(R.id.content_frame, new MuseumsFragment())
+                    .commit();
         } else if (id == R.id.nav_parks) {
-            Intent parksIntent = new Intent(MainActivity.this, ParksActivity.class);
-            startActivity(parksIntent);
+            setToolbarTitle(R.string.places_parks);
+            getFragmentManager().beginTransaction()
+                    .replace(R.id.content_frame, new ParksFragment())
+                    .commit();
         } else if (id == R.id.nav_food) {
-            Intent foodIntent = new Intent(MainActivity.this, FoodActivity.class);
-            startActivity(foodIntent);
+            setToolbarTitle(R.string.places_food);
+            getFragmentManager().beginTransaction()
+                    .replace(R.id.content_frame, new FoodFragment())
+                    .commit();
+        } else {
+            Log.v("MenuItemClick", "Menu item is null");
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    public void setToolbarTitle(int titleResource) {
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().setTitle(titleResource);
+        }
     }
 }
