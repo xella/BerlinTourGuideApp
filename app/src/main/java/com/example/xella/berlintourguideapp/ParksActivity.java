@@ -14,14 +14,14 @@ public class ParksActivity extends AppCompatActivity {
         setContentView(R.layout.place_list);
 
         ArrayList<Place> places = new ArrayList<Place>();
-        places.add(new Place("Botanical Garden", getString(R.string.botanical_garden_d), R.drawable.botanischergarten, "Königin-Luise-Straße 6-8, 14195 Berlin","9AM - 6PM"));
-        places.add(new Place("Tiergarten", getString(R.string.tiergarden_d), R.drawable.tiergarten, "Straße des 17. Juni 100, 10557 Berlin","24/7"));
-        places.add(new Place("Tempelhofer Field", getString(R.string.tempelhofer_feld_d), R.drawable.tempelhoferfeld, "Tempelhofer Damm, 12101 Berlin","6AM - 10:30PM"));
-        places.add(new Place("Mauerpark", getString(R.string.mauerpark_d), R.drawable.mauerpark, "Gleimstraße 55, 10437 Berlin","24/7"));
-        places.add(new Place("Park am Gleisdreieck", getString(R.string.park_am_gleisdreieck_d), R.drawable.parkamgleisdreieck, "Möckernstraße 26, 10963 Berlin","24/7"));
-        places.add(new Place("Viktoriapark", getString(R.string.viktoriapark_d), R.drawable.viktoriapark, "Kreuzbergstraße 15, 10965 Berlin","24/7"));
-        places.add(new Place("Britzer Garten", getString(R.string.britzer_garten_d), R.drawable.britzergarten, "Sangerhauser Weg 1, 12349 Berlin","9AM - 7:30PM"));
-        places.add(new Place("Gärten der Welt", getString(R.string.gaerten_der_welt_d), R.drawable.gartenderwelt, "Eisenacher Str. 99, 12685 Berlin","9AM - 8PM"));
+        places.add(new Place(getString(R.string.botanical_garden), getString(R.string.botanical_garden_d), R.drawable.botanischergarten, getString(R.string.botanical_garden_address), getString(R.string.botanical_garden_hours)));
+        places.add(new Place(getString(R.string.tiergarten), getString(R.string.tiergarten_d), R.drawable.tiergarten, getString(R.string.tiergarten_address), getString(R.string.tiergarten_hours)));
+        places.add(new Place(getString(R.string.tempelhofer_feld), getString(R.string.tempelhofer_feld_d), R.drawable.tempelhoferfeld, getString(R.string.tempelhofer_feld_address), getString(R.string.tempelhofer_feld_hours)));
+        places.add(new Place(getString(R.string.mauerpark), getString(R.string.mauerpark_d), R.drawable.mauerpark, getString(R.string.mauerpark_address), getString(R.string.mauerpark_hours)));
+        places.add(new Place(getString(R.string.park_am_gleisdreieck), getString(R.string.park_am_gleisdreieck_d), R.drawable.parkamgleisdreieck, getString(R.string.park_am_gleisdreieck_address), getString(R.string.park_am_gleisdreieck_hours)));
+        places.add(new Place(getString(R.string.viktoriapark), getString(R.string.viktoriapark_d), R.drawable.viktoriapark, getString(R.string.viktoriapark_address), getString(R.string.viktoriapark_hours)));
+        places.add(new Place(getString(R.string.britzer_garten), getString(R.string.britzer_garten_d), R.drawable.britzergarten, getString(R.string.britzer_garten_address), getString(R.string.britzer_garten_hours)));
+        places.add(new Place(getString(R.string.gaerten_der_welt), getString(R.string.gaerten_der_welt_d), R.drawable.gartenderwelt, getString(R.string.gaerten_der_welt_address), getString(R.string.gaerten_der_welt_hours)));
 
         // Create an {@link PlaceAdapter}, whose data source is a list of {@link Place}s.
         // The adapter knows how to create list items for each item in the list.

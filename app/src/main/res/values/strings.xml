@@ -40,7 +40,12 @@
         and people decided to destroy the wall.
     </string>
 
+    <string name="price_cheap">Cheap</string>
+    <string name="price_medium">Medium</string>
+    <string name="price_expensive">Expensive</string>
+
     <!-- Sights -->
+    <string name="east_side_gallery">East Side Gallery</string>
     <string name="east_side_gallery_d">
         The East Side Gallery is an international memorial for freedom.
         It is a 1316 m long section of the Berlin Wall located near the centre
@@ -49,7 +54,9 @@
         The gallery is located on the so-called "hinterland mauer",
         which closed the border to West Berlin.
     </string>
+    <string name="east_side_gallery_address">Mühlenstraße, 10243 Berlin</string>
 
+    <string name="brandenburg_gate">Brandenburg Gate</string>
     <string name="brandenburg_gate_d">
         The Brandenburg Gate (German: Brandenburger Tor) is an 18th-century neoclassical monument in Berlin,
         built on the orders of Prussian king Frederick William II after the (temporarily)
@@ -58,46 +65,60 @@
         that marked the start of the road from Berlin to the town of Brandenburg an der Havel,
         which used to be capital of the Margraviate of Brandenburg.
     </string>
+    <string name="brandenburg_gate_address">Pariser Platz, 10117 Berlin</string>
 
+    <string name="alexanderplatz">Alexanderplatz</string>
     <string name="alexanderplatz_d">
         Alexanderplatz is a large public square and transport hub in the central Mitte district of Berlin, near the Fernsehturm.
         Berliners often call it simply Alex, referring to a larger neighbourhood stretching from Mollstraße in the northeast to Spandauer Straße and the Rotes Rathaus in the southwest.
     </string>
-    
+    <string name="alexanderplatz_address">Alexanderplatz, 10178 Berlin</string>
+
+    <string name="unter_den_linden">Unter den Linden</string>
     <string name="unter_den_linden_d">
         Unter den Linden ("under the linden trees") is a boulevard in the central Mitte district of Berlin, the capital of Germany.
         Running from the City Palace to Brandenburg Gate, it is named after the lime trees that line the grassed pedestrian mall on the median
         and the two broad carriageways. The avenue links numerous Berlin sights and landmarks.
     </string>
-    
-    <string name="berlin_hbf_d">
-        Berlin Hauptbahnhof is the main railway station in Berlin, Germany.
-        It came into full operation two days after a ceremonial opening on 26 May 2006.
-        It\'s located on the site of the historic Lehrter Bahnhof, and until it opened as a main line station,
-        it was a stop on the Berlin S-Bahn suburban railway temporarily named Berlin Hauptbahnhof - Lehrter Bahnhof.
-    </string>
+    <string name="unter_den_linden_address">Unter den Linden, 10117 Berlin</string>
 
+    <string name="fernsehturm">Fernsehturm</string>
     <string name="fernsehturm_d">
         Close to Alexanderplatz in Berlin-Mitte, the tower was constructed between 1965 and 1969 by the government of the German Democratic Republic (GDR).
         It was intended as both a symbol of communist power and of Berlin. It remains the latter today, as it is easily visible throughout the central and some suburban districts of Berlin.
         With its height of 368 metres (including antenna) it is the tallest structure in Germany, and the second tallest structure in the European Union.
         Of three tallest structures in Europe, it is 0.5m shorter than the Riga Radio and TV Tower.
     </string>
+    <string name="fernsehturm_address">Panoramastraße 1A, 10178 Berlin</string>
 
+    <string name="berlin_hbf">Berlin Hauptbahnhof</string>
+    <string name="berlin_hbf_d">
+        Berlin Hauptbahnhof is the main railway station in Berlin, Germany.
+        It came into full operation two days after a ceremonial opening on 26 May 2006.
+        It\'s located on the site of the historic Lehrter Bahnhof, and until it opened as a main line station,
+        it was a stop on the Berlin S-Bahn suburban railway temporarily named Berlin Hauptbahnhof - Lehrter Bahnhof.
+    </string>
+    <string name="berlin_hbf_address">Hauptbahnhof, Europaplatz 1, 10557 Berlin</string>
+
+    <string name="siegessauele">Siegessaeule</string>
     <string name="siegessauele_d">
         The Victory Column (German: Siegessäule) is a monument in Berlin, Germany. Designed by Heinrich Strack, after 1864 to commemorate the Prussian victory in the Danish-Prussian War,
         by the time it was inaugurated on 2 September 1873, Prussia had also defeated Austria and its German allies in the Austro-Prussian War (1866) and France in the Franco-Prussian War (1870-71),
         giving the statue a new purpose. Different from the original plans, these later victories in the socalled unification wars inspired the addition of the bronze sculpture of Victoria, 8.3 metres (27 ft) high and weighing 35 tonnes,
         designed by Fridrich Drake. Berliners have given the statue the nickname Goldelse, meaning something like "Golden Lizzy".
     </string>
+    <string name="siegessauele_address">Großer Stern, 10557 Berlin</string>
 
+    <string name="hackescher_hoefe">Hackescher Höfe</string>
     <string name="hackescher_hoefe_d">
         The Hackesche Höfe are a notable courtyard complex situated adjacent to the Hackescher Markt in the centre of Berlin.
         The complex consists of eight interconnected courtyards, accessed through a main arched entrance at number 40 Rosenthaler Straße.
         The complex was designed in the Jugendstil (or Art Nouveau) style by August Endel, and the first courtyard is adorned with a magnificent facade of polychrome glazed brick.
         The construction of this project, launched in 1906, follows a pattern of clear separation between residential areas, crafts, trade and culture, which distinguishes it from the courtyards of the 19th century.
     </string>
+    <string name="hackescher_hoefe_address">Rosenthaler Straße 40, 10178 Berlin</string>
 
+    <string name="oberbaum_bruecke">Oberbaum Brücke</string>
     <string name="oberbaum_bruecke_d">
         The Oberbaum Bridge (German: Oberbaumbrücke) is a double-deck bridge crossing Berlin\'s River Spree, considered one of the city\'s landmarks.
         It links Friedrichshain and Kreuzberg, former boroughs that were divided by the Berlin Wall, and has become an important symbol of Berlin\’s unity.
@@ -105,8 +126,10 @@
         The upper deck of the bridge carries Berlin U-Bahn line U1, between Schlesisches Tor and Warschauer Straße stations.
         The bridge appears prominently in the 1998 film Run Lola Run.
     </string>
+    <string name="oberbaum_bruecke_address">Oberbaumbrücke, 10243 Berlin</string>
 
     <!-- Museums -->
+    <string name="german_museum_of_technology">German Museum of Technology</string>
     <string name="german_museum_of_technology_d">
         Deutsches Technikmuseum Berlin (German Museum of Technology) in Berlin,
         Germany is a museum of science and technology, and exhibits a large collection of historical technical artifacts.
@@ -114,7 +137,11 @@
         In 2003, it opened both maritime and aviation exhibition halls in a newly built extension.
         The museum also contains a science center called Spectrum.
     </string>
+    <string name="german_museum_of_technology_address">Trebbiner Straße 9, 10963 Berlin</string>
+    <string name="german_museum_of_technology_phone">+49 30 90254\-0</string>
+    <string name="german_museum_of_technology_hours">9AM - 5:30PM</string>
 
+    <string name="german_historical_museum">German Historical Museum</string>
     <string name="german_historical_museum_d">
         The German Historical Museum (Deutsches Historisches Museum), DHM for short, is a museum in Berlin devoted to German history and defines itself as a place of enlightenment and understanding of the shared history of Germans and Europeans.
         It is often viewed as one of the most important museums in Berlin and is one of the most frequented.
@@ -122,7 +149,11 @@
         The German Historical Museum is under the legal form of a foundation registered by the Federal Republic of Germany.
         Its highest-ranking body is the Board of Trustees (Kuratorium) with representatives of the Federal Government, the German Bundestag (Parliament) and the governments of the German Länder, or states.
     </string>
+    <string name="german_historical_museum_address">Unter den Linden 2, 10117 Berlin</string>
+    <string name="german_historical_museum_phone">+49 30 20304\-0</string>
+    <string name="german_historical_museum_hours">10AM - 6PM</string>
 
+    <string name="berliner_dom">Berlin Cathedral</string>
     <string name="berliner_dom_d">
         Berlin Cathedral (German: Berliner Dom) is the short name for the Evangelical Supreme Parish and Collegiate Church (German: Oberpfarr- und Domkirche zu Berlin) in Berlin, Germany.
         It is located on Museum Island in the Mitte borough.
@@ -132,32 +163,50 @@
         The Berlin Cathedral has never been a cathedral in the actual sense of that term since it has never been the seat of a bishop.
         The bishop of the Evangelical Church in Berlin-Brandenburg (under this name 1945–2003) is based at St. Mary\'s Church and Kaiser Wilhelm Memorial Church in Berlin.
     </string>
+    <string name="berliner_dom_address">Am Lustgarten, 10178 Berlin</string>
+    <string name="berliner_dom_phone">+49 30 20269136</string>
+    <string name="berliner_dom_hours">11AM - 4PM</string>
 
+    <string name="museum_fuer_naturkunde">Museum für Naturkunde</string>
     <string name="museum_fuer_naturkunde_d">
         The Museum für Naturkunde (MfN), occasionally called the Naturkundemuseum or Humboldt-Museum for short,
         (officially: Museum für Naturkunde – Leibniz-Institut für Evolutions- und Biodiversitätsforschung), is a natural history museum in Berlin, Germany.
         The museum houses more than 30 million zoological, paleontological, and mineralogical specimens, including more than ten thousand type specimens.
         It is famous for two exhibits: the largest mounted dinosaur in the world, and a well-preserved specimen of the earliest known bird, Archaeopteryx.
     </string>
+    <string name="museum_fuer_naturkunde_address">Invalidenstraße 43, 10115 Berlin</string>
+    <string name="museum_fuer_naturkunde_phone">+49 30 20938591</string>
+    <string name="museum_fuer_naturkunde_hours">9:30AM - 6PM</string>
 
+    <string name="miniatur_welten">LOXX Miniatur Welten Berlin</string>
     <string name="miniatur_welten_d">
         Located on the fourth floor of a centrally located shopping mall, LOXX Miniature Worlds Berlin is an exhibit showing incredible attention to detail.
         See the city in miniature form, with everything from tiny cars on the roads, planes taking off at the airport and iconic Berlin landmarks included.
         Many of the exhibits are interactive - children especially love pressing buttons to set the trains moving, to turn on a building\'s lights or to trigger a weather effect.
         It\'s the ideal introduction to the German capital, offering visitors a chance to see the city from a totally different perspective.
     </string>
+    <string name="miniatur_welten_address">Grunerstraße 20, 10179 Berlin</string>
+    <string name="miniatur_welten_phone">+49 30 44723022</string>
+    <string name="miniatur_welten_hours">10AM - 8PM</string>
 
     <!-- Parks -->
+    <string name="botanical_garden">Botanical Garden</string>
     <string name="botanical_garden_d">
         The Berlin-Dahlem Botanical Garden and Botanical Museum (German: Botanischer Garten und Botanisches Museum Berlin-Dahlem) is a botanical garden in the German capital city of Berlin, with an area of 43 hectares and around 22,000 different plant species.
         It was constructed between 1897 and 1910, under the guidance of architect Adolf Engler, in order to present exotic plants returned from German colonies.
     </string>
+    <string name="botanical_garden_address">Königin-Luise-Straße 6-8, 14195 Berlin</string>
+    <string name="botanical_garden_hours">9AM - 6PM</string>
 
-    <string name="tiergarden_d">
+    <string name="tiergarten">Tiergarten</string>
+    <string name="tiergarten_d">
         Popular among locals and visitors alike, the Tiergarten is Berlin\'s largest and most frequented inner-city park.
         It is ideal for a stroll, outdoor activities or a picnic.
     </string>
+    <string name="tiergarten_address">Straße des 17. Juni 100, 10557 Berlin</string>
+    <string name="tiergarten_hours">24/7</string>
 
+    <string name="tempelhofer_feld">Tempelhofer Field</string>
     <string name="tempelhofer_feld_d">
         The people of Berlin are delighted with their new, yet old-established recreation area.
         The former Tempelhof airport is now a public park – and not for the first time in its history.
@@ -168,26 +217,38 @@
         After the airport closed in 2008, the city of Berlin reclaimed the 386-hectare open space and one of the world\'s largest buildings in a central location for public use.
         Today, the area has a six-kilometre cycling, skating and jogging trail, a 2.5-hectare BBQ area, a dog-walking field covering around four hectares and an enormous picnic area for all visitors.
     </string>
+    <string name="tempelhofer_feld_address">Tempelhofer Damm, 12101 Berlin</string>
+    <string name="tempelhofer_feld_hours">6AM - 10:30PM</string>
 
+    <string name="mauerpark">Mauerpark</string>
     <string name="mauerpark_d">
         Amble through the flea market, a drink from the off licence on the lawn and singing along to open air karaoke – your Sunday afternoon in Mauerpark.
         If the legendary Berlin attitude can ever be found at home, then it’s in the Mauerpark on Sundays.
         A relaxed amble through the stalls of the flea market, followed by a short climb up the hill and grabbing one of the coveted places on the swings and letting your gaze roam over the city before grabbing the microphone in the amphitheatre and impressing hundreds of fans at the Mauerpark karaoke.
     </string>
+    <string name="mauerpark_address">Gleimstraße 55, 10437 Berlin</string>
+    <string name="mauerpark_hours">24/7</string>
 
+    <string name="park_am_gleisdreieck">Park am Gleisdreieck</string>
     <string name="park_am_gleisdreieck_d">
         The Park am Gleisdreieck is located on a former railway area around the traffic junction. Now it\'s one of Berlin\'s most popular parks.
         Berlin has long since been able to consider itself a metropolis with green fingers.
         There are many small and large recreation and leisure areas, especially in the inner-city districts.
         And in the future it is also intended to adhere to a healthy mixture of redevelopment and open spaces. The latest example of this urban planning concept is the recently created Park am Gleisdreieck (Gleisdreieck Park) in Kreuzberg. The railway area around the traffic junction at Gleisdreieck became a wasteland at the end of the Second World War, and developed a rich diversity of vegetation almost unnoticed. A citizens’ group was formed with the aim of ensuring a permanent existence for this unhoped-for refuge reclaimed by flora and fauna surrounded by dense redevelopment, and in the end they were successful. Many proposals and criticisms by residents were integrated into the planning process, which was notable for the strong public involvement. After its completion in 2013, the Park am Gleisdreieck connects to the green areas of the government quarter and Potsdamer Platz, and extend them in a southerly direction to the nature park at Schöneberger Südgelände. The eastern part of this park was opened in September 2011 and with its 17 hectares (42 acres) represents the larger part of the total area of 26 hectares (64 acres) that will be created between Tempelhofer Ufer and Yorckstraße. An ICE railway line cuts through this area in a north-south direction separating the two elements of the park from each other.
     </string>
+    <string name="park_am_gleisdreieck_address">Möckernstraße 26, 10963 Berlin</string>
+    <string name="park_am_gleisdreieck_hours">24/7</string>
 
+    <string name="viktoriapark">Viktoriapark</string>
     <string name="viktoriapark_d">
         A mountain waterfall, a vineyard and a national memorial – you can find it all in Viktoriapark in Kreuzberg.
         Kreuzberg is not just the name of the borough in Berlin, but also that of a 66-metre-high hill.
         On the top of the hill stands a national monument and there is a small, romantic park. Nowhere else in the city can you enjoy the atmosphere of a babbling waterfall.
     </string>
+    <string name="viktoriapark_address">Kreuzbergstraße 15, 10965 Berlin</string>
+    <string name="viktoriapark_hours">24/7</string>
 
+    <string name="britzer_garten">Britzer Garten</string>
     <string name="britzer_garten_d">
         The site of the Federal Garden Show 1985 is now one of the most attractive recreational areas in Berlin.
         At the Britzer Garden, there are many way to spend your leisure time in a relaxed manner.
@@ -196,35 +257,69 @@
         At Kalenderplatz, the largest sundial in Europe is found. Whoever has become exhausted from having walked through the 100 acre large garden can continue exploring the garden with the help of the park train - or such persons may opt to pay a visit to one of the three restaurants which are open year round (Café am See, Bistro am Kalenderplatz, Restaurant Britzer Mühle).
         Toilets are wheelchair accessible, wheelchair rental service, tactile signs Bicycles and dogs are not permitted in the garden.
     </string>
+    <string name="britzer_garten_address">Sangerhauser Weg 1, 12349 Berlin</string>
+    <string name="britzer_garten_hours">9AM - 7:30PM</string>
 
+    <string name="gaerten_der_welt">Gärten der Welt</string>
     <string name="gaerten_der_welt_d">
         A cherry blossom festival and a tea ceremony in the middle of a sea of flowers: the 40-hectare Gärten der Welt are a perfect place to relax and enjoy the wonderful gardens.
         A Korean tea ceremony, a Japanese cherry blossom festival, and beautiful gardens and flowers from Europe and all over the world.
         Welcome to the Gärten der Welt!
         Take a walk through the Chinese Garden of the Regained Moon to the tropical flora of Bali: an oasis in the middle of Marzahn.
     </string>
+    <string name="gaerten_der_welt_address">Eisenacher Str. 99, 12685 Berlin</string>
+    <string name="gaerten_der_welt_hours">9AM - 8PM</string>
 
     <!-- Food -->
+    <string name="salsabil">Salsabil 2</string>
     <string name="salsabil_d">
         A really good falafel and schawarma place.
         It is possible here to get all possible known variants, e.g. halumi, shawarma or falafel.
         Everyone there is friendly and talkative. The owners are very welcoming and create a very pleasant atmosphere.
         \nOriental, Lebanese, Arabic.
     </string>
+    <string name="salsabil_address">Wörther Straße 16, 10405 Berlin</string>
+    <string name="salsabil_phone">+49 30 44046073</string>
+    <string name="salsabil_hours">12AM - 12PM</string>
 
+    <string name="dolores">Dolores</string>
     <string name="dolores_d">
-
+        Delicious freshly prepared burritos, tacos, salads and lemonades.
+        You can choose from predefined variations or create your own bowl or burrito.
+        Tasty, fast and with reasonable prices.
     </string>
+    <string name="dolores_address">Rosa-Luxemburg-Str. 7, 10178 Berlin</string>
+    <string name="dolores_phone">+49 30 28099597</string>
+    <string name="dolores_hours">11:30AM - 10PM</string>
 
+    <string name="bep_viet">Bep Viet</string>
     <string name="bep_viet_d">
-
+        Something different than the typical Asian restaurants. Nice and attentive service.
+        I celebrated my birthday there this year. Traditional and vegetarian dishes from Vietnam.
+        It\'s a wonderful place with a waiter who looks very similar to Jackie Chan. Highly recommended!
     </string>
+    <string name="bep_viet_address">Kollwitzstr. 56, 10405 Berlin</string>
+    <string name="bep_viet_phone">+49 30 40056830</string>
+    <string name="bep_viet_hours">12AM - 11:30PM</string>
 
+    <string name="zweistrom_land">Zweistrom Land</string>
     <string name="zweistrom_land_d">
-
+        One of the newest kebab places in the area and it doesn\'t disappoint!
+        Fresh and delicious with a very clean eating area.
+        One of the best falafel\'s I\'ve had in a while - with a tasty sesame and orange-lemon sauce.
     </string>
+    <string name="zweistrom_address">Danziger Straße 18, 10435 Berli</string>
+    <string name="zweistrom_phone">+49 1573 1441613</string>
+    <string name="zweistrom_hours">11AM - 12PM</string>
 
+    <string name="khushi">Khushi</string>
     <string name="khushi_d">
-
+        Very cozy ambience, friendly and attentive service, very tasty and plentiful food.
+        Mild sauces from the north and hot curry from the south.
+        Pleasant atmosphere where one can try out the various dishes prepared with fresh and traditional ingredients.
+        \nIndian Cuisine
     </string>
+    <string name="khushi_address">Kollwitzstraße 37, 10405 Berlin</string>
+    <string name="khushi_phone">+49 30 48493791</string>
+    <string name="khushi_hours">12AM - 12PM</string>
 </resources>
