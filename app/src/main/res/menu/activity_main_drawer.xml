@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item
-        android:id="@+id/nav_sights"
-        android:icon="@drawable/ic_explore"
-        android:title="@string/places_sights" />
-    <item
-        android:id="@+id/nav_museums"
-        android:icon="@drawable/ic_menu_camera"
-        android:title="@string/places_museums" />
-    <item
-        android:id="@+id/nav_parks"
-        android:icon="@drawable/ic_local_florist"
-        android:title="@string/places_parks" />
-    <item
-        android:id="@+id/nav_food"
-        android:icon="@drawable/ic_restaurant"
-        android:title="@string/places_food" />
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_sights"
+            android:icon="@drawable/ic_explore"
+            android:title="@string/places_sights" />
+        <item
+            android:id="@+id/nav_museums"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/places_museums" />
+        <item
+            android:id="@+id/nav_parks"
+            android:icon="@drawable/ic_local_florist"
+            android:title="@string/places_parks" />
+        <item
+            android:id="@+id/nav_food"
+            android:icon="@drawable/ic_restaurant"
+            android:title="@string/places_food" />
+    </group>
 </menu>
