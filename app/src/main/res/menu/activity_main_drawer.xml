@@ -18,9 +18,5 @@
             android:id="@+id/nav_food"
             android:icon="@drawable/ic_restaurant"
             android:title="Food" />
-        <item
-            android:id="@+id/nav_shopping"
-            android:icon="@drawable/ic_store_mall"
-            android:title="Shopping" />
     </group>
 </menu>
