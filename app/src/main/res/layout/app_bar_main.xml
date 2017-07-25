@@ -21,9 +21,9 @@
 
             <ImageView
                 android:id="@+id/expandedImage"
-                android:scaleType="centerCrop"
                 android:layout_width="match_parent"
                 android:layout_height="220dp"
+                android:scaleType="centerCrop"
                 android:src="@drawable/berlin"
                 app:layout_collapseMode="parallax"
                 app:layout_collapseParallaxMultiplier="0.7" />
@@ -39,13 +39,6 @@
 
         </android.support.design.widget.CollapsingToolbarLayout>
 
-        <!--<android.support.v7.widget.Toolbar-->
-            <!--android:id="@+id/toolbar"-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="?attr/actionBarSize"-->
-            <!--android:background="?attr/colorPrimary"-->
-            <!--app:popupTheme="@style/AppTheme.PopupOverlay" />-->
-
     </android.support.design.widget.AppBarLayout>
 
     <include layout="@layout/content_main" />
@@ -54,9 +47,9 @@
         android:id="@+id/fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="@dimen/fab_margin"
         app:layout_anchor="@id/app_bar_layout"
         app:layout_anchorGravity="bottom|right|end"
-        android:layout_margin="@dimen/fab_margin"
         app:srcCompat="@drawable/ic_share" />
 
 </android.support.design.widget.CoordinatorLayout>

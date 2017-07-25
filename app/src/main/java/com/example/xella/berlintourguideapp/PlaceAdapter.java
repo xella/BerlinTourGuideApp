@@ -29,7 +29,7 @@ public class PlaceAdapter extends ArrayAdapter<Place> {
     }
 
     @Override
-    public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
+    public View getView(int position, View convertView, ViewGroup parent) {
 
         // Check if the existing view is being reused, otherwise inflate the view
         View listItemView = convertView;
@@ -56,7 +56,7 @@ public class PlaceAdapter extends ArrayAdapter<Place> {
         ImageView imageView = (ImageView) listItemView.findViewById(R.id.image);
 
         if (currentPlace.hasImage()) {
-            // Set the ImageView to the image resource specified in the current Word
+            // Set the ImageView to the image resource specified in the current Place
             imageView.setImageResource(currentPlace.getImageResourceID());
 
             // Make sure the view is visible
@@ -64,6 +64,39 @@ public class PlaceAdapter extends ArrayAdapter<Place> {
         } else {
             // Otherwise hide the ImageView (set visibility to GONE)
             imageView.setVisibility(View.GONE);
+        }
+
+        // Find the TextView in the list_item.xml layout with the ID place_address
+        TextView placeAddressTextView = (TextView) listItemView.findViewById(R.id.place_address);
+        // Get the place address from the current Place object and
+        // set this text on the place_address TextView
+        placeAddressTextView.setText(currentPlace.getPlaceAddress());
+
+        // Find the TextView in the list_item.xml layout with the ID place_phone
+        TextView placePhoneTextView = (TextView) listItemView.findViewById(R.id.place_phone);
+
+        if (currentPlace.hasPhone()) {
+            placePhoneTextView.setText(currentPlace.getPlacePhone());
+        } else {
+            placePhoneTextView.setVisibility(View.GONE);
+        }
+
+        // Find the TextView in the list_item.xml layout with the ID place_price_range
+        TextView placePriceRangeTextView = (TextView) listItemView.findViewById(R.id.place_price_range);
+
+        if (currentPlace.hasPriceRange()) {
+            placePriceRangeTextView.setText(currentPlace.getPlacePriceRange());
+        } else {
+            placePriceRangeTextView.setVisibility(View.GONE);
+        }
+
+        // Find the TextView in the list_item.xml layout with the ID place_working_hours
+        TextView placeWorkingHours = (TextView) listItemView.findViewById(R.id.place_working_hours);
+
+        if (currentPlace.hasWorkingHours()) {
+            placeWorkingHours.setText(currentPlace.getWorkingHours());
+        } else {
+            placeWorkingHours.setVisibility(View.GONE);
         }
 
         return listItemView;

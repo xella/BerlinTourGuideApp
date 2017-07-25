@@ -22,11 +22,15 @@
         <activity
             android:name=".SightsActivity"
             android:label="Sights" />
-        <activity android:name=".MuseumsActivity" />
-        <activity android:name=".ParksActivity" />
-        <activity android:name=".FoodActivity" />
-        <activity android:name=".ShoppingActivity" />
-        <activity android:name=".GalleryActivity"></activity>
+        <activity
+            android:name=".MuseumsActivity"
+            android:label="Museums" />
+        <activity
+            android:name=".ParksActivity"
+            android:label="Parks" />
+        <activity
+            android:name=".FoodActivity"
+            android:label="Food" />
     </application>
 
 </manifest>

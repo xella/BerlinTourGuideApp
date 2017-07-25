@@ -40,6 +40,7 @@
         and people decided to destroy the wall.
     </string>
 
+    <!-- Sights -->
     <string name="east_side_gallery_d">
         The East Side Gallery is an international memorial for freedom.
         It is a 1316 m long section of the Berlin Wall located near the centre
@@ -56,5 +57,174 @@
         One of the best-known landmarks of Germany, it was built on the site of a former city gate
         that marked the start of the road from Berlin to the town of Brandenburg an der Havel,
         which used to be capital of the Margraviate of Brandenburg.
+    </string>
+
+    <string name="alexanderplatz_d">
+        Alexanderplatz is a large public square and transport hub in the central Mitte district of Berlin, near the Fernsehturm.
+        Berliners often call it simply Alex, referring to a larger neighbourhood stretching from Mollstraße in the northeast to Spandauer Straße and the Rotes Rathaus in the southwest.
+    </string>
+    
+    <string name="unter_den_linden_d">
+        Unter den Linden ("under the linden trees") is a boulevard in the central Mitte district of Berlin, the capital of Germany.
+        Running from the City Palace to Brandenburg Gate, it is named after the lime trees that line the grassed pedestrian mall on the median
+        and the two broad carriageways. The avenue links numerous Berlin sights and landmarks.
+    </string>
+    
+    <string name="berlin_hbf_d">
+        Berlin Hauptbahnhof is the main railway station in Berlin, Germany.
+        It came into full operation two days after a ceremonial opening on 26 May 2006.
+        It\'s located on the site of the historic Lehrter Bahnhof, and until it opened as a main line station,
+        it was a stop on the Berlin S-Bahn suburban railway temporarily named Berlin Hauptbahnhof - Lehrter Bahnhof.
+    </string>
+
+    <string name="fernsehturm_d">
+        Close to Alexanderplatz in Berlin-Mitte, the tower was constructed between 1965 and 1969 by the government of the German Democratic Republic (GDR).
+        It was intended as both a symbol of communist power and of Berlin. It remains the latter today, as it is easily visible throughout the central and some suburban districts of Berlin.
+        With its height of 368 metres (including antenna) it is the tallest structure in Germany, and the second tallest structure in the European Union.
+        Of three tallest structures in Europe, it is 0.5m shorter than the Riga Radio and TV Tower.
+    </string>
+
+    <string name="siegessauele_d">
+        The Victory Column (German: Siegessäule) is a monument in Berlin, Germany. Designed by Heinrich Strack, after 1864 to commemorate the Prussian victory in the Danish-Prussian War,
+        by the time it was inaugurated on 2 September 1873, Prussia had also defeated Austria and its German allies in the Austro-Prussian War (1866) and France in the Franco-Prussian War (1870-71),
+        giving the statue a new purpose. Different from the original plans, these later victories in the socalled unification wars inspired the addition of the bronze sculpture of Victoria, 8.3 metres (27 ft) high and weighing 35 tonnes,
+        designed by Fridrich Drake. Berliners have given the statue the nickname Goldelse, meaning something like "Golden Lizzy".
+    </string>
+
+    <string name="hackescher_hoefe_d">
+        The Hackesche Höfe are a notable courtyard complex situated adjacent to the Hackescher Markt in the centre of Berlin.
+        The complex consists of eight interconnected courtyards, accessed through a main arched entrance at number 40 Rosenthaler Straße.
+        The complex was designed in the Jugendstil (or Art Nouveau) style by August Endel, and the first courtyard is adorned with a magnificent facade of polychrome glazed brick.
+        The construction of this project, launched in 1906, follows a pattern of clear separation between residential areas, crafts, trade and culture, which distinguishes it from the courtyards of the 19th century.
+    </string>
+
+    <string name="oberbaum_bruecke_d">
+        The Oberbaum Bridge (German: Oberbaumbrücke) is a double-deck bridge crossing Berlin\'s River Spree, considered one of the city\'s landmarks.
+        It links Friedrichshain and Kreuzberg, former boroughs that were divided by the Berlin Wall, and has become an important symbol of Berlin\’s unity.
+        The lower deck of the bridge carries a roadway, which connects Oberbaum Straße to the south of the river with Warschauer Straße to the north.
+        The upper deck of the bridge carries Berlin U-Bahn line U1, between Schlesisches Tor and Warschauer Straße stations.
+        The bridge appears prominently in the 1998 film Run Lola Run.
+    </string>
+
+    <!-- Museums -->
+    <string name="german_museum_of_technology_d">
+        Deutsches Technikmuseum Berlin (German Museum of Technology) in Berlin,
+        Germany is a museum of science and technology, and exhibits a large collection of historical technical artifacts.
+        The museum\'s main emphasis originally was on rail transport, but today it also features exhibits of various sorts of industrial technology.
+        In 2003, it opened both maritime and aviation exhibition halls in a newly built extension.
+        The museum also contains a science center called Spectrum.
+    </string>
+
+    <string name="german_historical_museum_d">
+        The German Historical Museum (Deutsches Historisches Museum), DHM for short, is a museum in Berlin devoted to German history and defines itself as a place of enlightenment and understanding of the shared history of Germans and Europeans.
+        It is often viewed as one of the most important museums in Berlin and is one of the most frequented.
+        The museum is located in the Zeughaus (armoury) on the avenue Unter den Linden as well as in the adjacent Exhibition Hall designed by I. M. Pei.
+        The German Historical Museum is under the legal form of a foundation registered by the Federal Republic of Germany.
+        Its highest-ranking body is the Board of Trustees (Kuratorium) with representatives of the Federal Government, the German Bundestag (Parliament) and the governments of the German Länder, or states.
+    </string>
+
+    <string name="berliner_dom_d">
+        Berlin Cathedral (German: Berliner Dom) is the short name for the Evangelical Supreme Parish and Collegiate Church (German: Oberpfarr- und Domkirche zu Berlin) in Berlin, Germany.
+        It is located on Museum Island in the Mitte borough.
+        The current building was finished in 1905 and is a main work of Historicist architecture of the "Kaiserzeit".
+        The Dom is the parish church of the congregation Gemeinde der Oberpfarr- und Domkirche zu Berlin,
+        a member of the umbrella organisation Evangelical Church of Berlin-Brandenburg-Silesian Upper Lusatia.
+        The Berlin Cathedral has never been a cathedral in the actual sense of that term since it has never been the seat of a bishop.
+        The bishop of the Evangelical Church in Berlin-Brandenburg (under this name 1945–2003) is based at St. Mary\'s Church and Kaiser Wilhelm Memorial Church in Berlin.
+    </string>
+
+    <string name="museum_fuer_naturkunde_d">
+        The Museum für Naturkunde (MfN), occasionally called the Naturkundemuseum or Humboldt-Museum for short,
+        (officially: Museum für Naturkunde – Leibniz-Institut für Evolutions- und Biodiversitätsforschung), is a natural history museum in Berlin, Germany.
+        The museum houses more than 30 million zoological, paleontological, and mineralogical specimens, including more than ten thousand type specimens.
+        It is famous for two exhibits: the largest mounted dinosaur in the world, and a well-preserved specimen of the earliest known bird, Archaeopteryx.
+    </string>
+
+    <string name="miniatur_welten_d">
+        Located on the fourth floor of a centrally located shopping mall, LOXX Miniature Worlds Berlin is an exhibit showing incredible attention to detail.
+        See the city in miniature form, with everything from tiny cars on the roads, planes taking off at the airport and iconic Berlin landmarks included.
+        Many of the exhibits are interactive - children especially love pressing buttons to set the trains moving, to turn on a building\'s lights or to trigger a weather effect.
+        It\'s the ideal introduction to the German capital, offering visitors a chance to see the city from a totally different perspective.
+    </string>
+
+    <!-- Parks -->
+    <string name="botanical_garden_d">
+        The Berlin-Dahlem Botanical Garden and Botanical Museum (German: Botanischer Garten und Botanisches Museum Berlin-Dahlem) is a botanical garden in the German capital city of Berlin, with an area of 43 hectares and around 22,000 different plant species.
+        It was constructed between 1897 and 1910, under the guidance of architect Adolf Engler, in order to present exotic plants returned from German colonies.
+    </string>
+
+    <string name="tiergarden_d">
+        Popular among locals and visitors alike, the Tiergarten is Berlin\'s largest and most frequented inner-city park.
+        It is ideal for a stroll, outdoor activities or a picnic.
+    </string>
+
+    <string name="tempelhofer_feld_d">
+        The people of Berlin are delighted with their new, yet old-established recreation area.
+        The former Tempelhof airport is now a public park – and not for the first time in its history.
+        Originally the Tempelhofer Feld was a parade ground.
+        At the weekends and on public holidays, as soon as the military cleared the site, the locals would swarm in their thousands to Tempelhof to enjoy their leisure time.
+        Whole families would come with their baskets full of food, deckchairs and sunshades to have picnics there.
+        At the beginning of the 1920s, Tempelhof airport was built on the site.
+        After the airport closed in 2008, the city of Berlin reclaimed the 386-hectare open space and one of the world\'s largest buildings in a central location for public use.
+        Today, the area has a six-kilometre cycling, skating and jogging trail, a 2.5-hectare BBQ area, a dog-walking field covering around four hectares and an enormous picnic area for all visitors.
+    </string>
+
+    <string name="mauerpark_d">
+        Amble through the flea market, a drink from the off licence on the lawn and singing along to open air karaoke – your Sunday afternoon in Mauerpark.
+        If the legendary Berlin attitude can ever be found at home, then it’s in the Mauerpark on Sundays.
+        A relaxed amble through the stalls of the flea market, followed by a short climb up the hill and grabbing one of the coveted places on the swings and letting your gaze roam over the city before grabbing the microphone in the amphitheatre and impressing hundreds of fans at the Mauerpark karaoke.
+    </string>
+
+    <string name="park_am_gleisdreieck_d">
+        The Park am Gleisdreieck is located on a former railway area around the traffic junction. Now it\'s one of Berlin\'s most popular parks.
+        Berlin has long since been able to consider itself a metropolis with green fingers.
+        There are many small and large recreation and leisure areas, especially in the inner-city districts.
+        And in the future it is also intended to adhere to a healthy mixture of redevelopment and open spaces. The latest example of this urban planning concept is the recently created Park am Gleisdreieck (Gleisdreieck Park) in Kreuzberg. The railway area around the traffic junction at Gleisdreieck became a wasteland at the end of the Second World War, and developed a rich diversity of vegetation almost unnoticed. A citizens’ group was formed with the aim of ensuring a permanent existence for this unhoped-for refuge reclaimed by flora and fauna surrounded by dense redevelopment, and in the end they were successful. Many proposals and criticisms by residents were integrated into the planning process, which was notable for the strong public involvement. After its completion in 2013, the Park am Gleisdreieck connects to the green areas of the government quarter and Potsdamer Platz, and extend them in a southerly direction to the nature park at Schöneberger Südgelände. The eastern part of this park was opened in September 2011 and with its 17 hectares (42 acres) represents the larger part of the total area of 26 hectares (64 acres) that will be created between Tempelhofer Ufer and Yorckstraße. An ICE railway line cuts through this area in a north-south direction separating the two elements of the park from each other.
+    </string>
+
+    <string name="viktoriapark_d">
+        A mountain waterfall, a vineyard and a national memorial – you can find it all in Viktoriapark in Kreuzberg.
+        Kreuzberg is not just the name of the borough in Berlin, but also that of a 66-metre-high hill.
+        On the top of the hill stands a national monument and there is a small, romantic park. Nowhere else in the city can you enjoy the atmosphere of a babbling waterfall.
+    </string>
+
+    <string name="britzer_garten_d">
+        The site of the Federal Garden Show 1985 is now one of the most attractive recreational areas in Berlin.
+        At the Britzer Garden, there are many way to spend your leisure time in a relaxed manner.
+        Ten hectares worth of lakes, theme gardens such as the famous rose garden, playgrounds, a geological garden, a witch garden invite you to stroll around and enjoy.
+        The great outdoor laboratory hosts a permanent exhibition concerning the world of animals and plants.
+        At Kalenderplatz, the largest sundial in Europe is found. Whoever has become exhausted from having walked through the 100 acre large garden can continue exploring the garden with the help of the park train - or such persons may opt to pay a visit to one of the three restaurants which are open year round (Café am See, Bistro am Kalenderplatz, Restaurant Britzer Mühle).
+        Toilets are wheelchair accessible, wheelchair rental service, tactile signs Bicycles and dogs are not permitted in the garden.
+    </string>
+
+    <string name="gaerten_der_welt_d">
+        A cherry blossom festival and a tea ceremony in the middle of a sea of flowers: the 40-hectare Gärten der Welt are a perfect place to relax and enjoy the wonderful gardens.
+        A Korean tea ceremony, a Japanese cherry blossom festival, and beautiful gardens and flowers from Europe and all over the world.
+        Welcome to the Gärten der Welt!
+        Take a walk through the Chinese Garden of the Regained Moon to the tropical flora of Bali: an oasis in the middle of Marzahn.
+    </string>
+
+    <!-- Food -->
+    <string name="salsabil_d">
+        A really good falafel and schawarma place.
+        It is possible here to get all possible known variants, e.g. halumi, shawarma or falafel.
+        Everyone there is friendly and talkative. The owners are very welcoming and create a very pleasant atmosphere.
+        \nOriental, Lebanese, Arabic.
+    </string>
+
+    <string name="dolores_d">
+
+    </string>
+
+    <string name="bep_viet_d">
+
+    </string>
+
+    <string name="zweistrom_land_d">
+
+    </string>
+
+    <string name="khushi_d">
+
     </string>
 </resources>

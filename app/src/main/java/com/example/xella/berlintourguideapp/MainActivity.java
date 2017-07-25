@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -36,7 +37,7 @@ public class MainActivity extends AppCompatActivity
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
-        drawer.setDrawerListener(toggle);
+        drawer.addDrawerListener(toggle);
         toggle.syncState();
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
@@ -81,18 +82,7 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_food) {
             Intent foodIntent = new Intent(MainActivity.this, FoodActivity.class);
             startActivity(foodIntent);
-        } else if (id == R.id.nav_shopping) {
-            Intent shoppingIntent = new Intent(MainActivity.this, ShoppingActivity.class);
-            startActivity(shoppingIntent);
-        } else if (id == R.id.nav_gallery) {
-            Intent galleryIntent = new Intent(MainActivity.this, GalleryActivity.class);
-            startActivity(galleryIntent);
         }
-//        } else if (id == R.id.nav_share) {
-//
-//        } else if (id == R.id.nav_send) {
-//
-//        }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
