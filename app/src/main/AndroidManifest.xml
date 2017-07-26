@@ -19,18 +19,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".SightsFragment"
-            android:label="@string/places_sights" />
-        <activity
-            android:name=".MuseumsFragment"
-            android:label="@string/places_museums" />
-        <activity
-            android:name=".ParksFragment"
-            android:label="@string/places_parks" />
-        <activity
-            android:name=".FoodFragment"
-            android:label="@string/places_food" />
     </application>
 
 </manifest>

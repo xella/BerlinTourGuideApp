@@ -2,6 +2,7 @@ package com.example.xella.berlintourguideapp;
 
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
+import android.app.Fragment;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -50,26 +51,13 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_sights) {
-            setToolbarTitle(R.string.places_sights);
-            // Insert the fragment by replacing any existing fragment
-            getFragmentManager().beginTransaction()
-                    .replace(R.id.content_frame, new SightsFragment())
-                    .commit();
+            setToolbarTitleAndFragment(R.string.places_sights, new SightsFragment());
         } else if (id == R.id.nav_museums) {
-            setToolbarTitle(R.string.places_museums);
-            getFragmentManager().beginTransaction()
-                    .replace(R.id.content_frame, new MuseumsFragment())
-                    .commit();
+            setToolbarTitleAndFragment(R.string.places_museums, new MuseumsFragment());
         } else if (id == R.id.nav_parks) {
-            setToolbarTitle(R.string.places_parks);
-            getFragmentManager().beginTransaction()
-                    .replace(R.id.content_frame, new ParksFragment())
-                    .commit();
+            setToolbarTitleAndFragment(R.string.places_parks, new ParksFragment());
         } else if (id == R.id.nav_food) {
-            setToolbarTitle(R.string.places_food);
-            getFragmentManager().beginTransaction()
-                    .replace(R.id.content_frame, new FoodFragment())
-                    .commit();
+            setToolbarTitleAndFragment(R.string.places_food, new FoodFragment());
         } else {
             Log.v("MenuItemClick", "Menu item is null");
         }
@@ -79,9 +67,13 @@ public class MainActivity extends AppCompatActivity
         return true;
     }
 
-    public void setToolbarTitle(int titleResource) {
+    public void setToolbarTitleAndFragment(int titleResource, Fragment fragment) {
         if (getSupportActionBar() != null) {
             getSupportActionBar().setTitle(titleResource);
         }
+        // Insert the fragment by replacing any existing fragment
+        getFragmentManager().beginTransaction()
+                .replace(R.id.content_frame, fragment)
+                .commit();
     }
 }
