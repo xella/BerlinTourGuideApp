@@ -9,7 +9,7 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
-public class ParksFragment extends android.app.Fragment {
+public class ParksFragment extends Fragment {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
